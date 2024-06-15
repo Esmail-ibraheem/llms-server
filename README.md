@@ -7,5 +7,5 @@ decentralized (local) llms to run in your computer privately.
       - choose the OS version you want to download:
         
 <p align="center">
-  <img src="https://github.com/Esmail-ibraheem/Private-llms/blob/main/ollama.jpg" alt="Your Image Description" width="300" height=300">
+  <img src="https://github.com/Esmail-ibraheem/Private-llms/blob/main/ollama.jpg" alt="Your Image Description" width="400" height=300">
 </p>
