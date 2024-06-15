@@ -11,6 +11,6 @@ decentralized (local) llms to run in your computer privately.
     </p>
 
     - then after downloading the Ollama, run the following command in your terminal:
-```
-ollama run llama3
-```
+      ```
+      ollama run llama3
+      ```
