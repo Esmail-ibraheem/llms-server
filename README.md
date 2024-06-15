@@ -9,3 +9,7 @@ decentralized (local) llms to run in your computer privately.
 <p align="center">
   <img src="https://github.com/Esmail-ibraheem/Private-llms/blob/main/ollama.jpg" alt="Your Image Description" width="400" height=300">
 </p>
+      - then after downloading the Ollama, run the following command in your terminal:
+        ```
+        ollama run llama3
+        ```
