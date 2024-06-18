@@ -1,6 +1,6 @@
 # PrivateLLMs
  
-decentralized (local) llms to run in your computer privately. 
+you like ollama, and llama.cpp , you love PrivateLLMs decentralized (local) llms to run in your computer privately. 
 
 ## 1- Building Decentralized LLMs Computer:
   - first download [Ollama](https://ollama.com/download/) on your computer:
