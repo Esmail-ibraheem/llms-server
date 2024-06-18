@@ -1,5 +1,5 @@
 # PrivateLLMs
-
+ 
 decentralized (local) llms to run in your computer privately. 
 
 ## 1- Building Decentralized LLMs Computer:
