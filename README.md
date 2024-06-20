@@ -4,7 +4,7 @@ you like ollama, and llama.cpp , you love PrivateLLMs decentralized (local) llms
 
 ## 1- Building Decentralized LLMs Computer:
   - first download [Ollama](https://ollama.com/download/) on your computer:
-      - choose the OS version you want to download:
+      - choose the OS version you want to download:\
              **`For Windows`** just click on [download (the preview)](https://ollama.com/download/OllamaSetup.exe)
      
           **`for Linux`** write this command in your terminal:
