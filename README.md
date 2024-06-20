@@ -12,6 +12,7 @@ you like ollama, and llama.cpp , you love PrivateLLMs decentralized (local) llms
         ```
         curl -fsSL https://ollama.com/install.sh | sh
         ```
+        
          
            **`for MacOS`**, click on the [download](https://ollama.com/download/Ollama-darwin.zip) 
 
