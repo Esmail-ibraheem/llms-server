@@ -10,7 +10,10 @@ you like ollama, and llama.cpp , you love PrivateLLMs decentralized (local) llms
       <img src="https://github.com/Esmail-ibraheem/Private-llms/blob/main/ollama.jpg" alt="Your Image Description" width="400" height=300">
     </p>
 
-    - then after downloading the Ollama, run the following command in your terminal:
+    - then after downloading the Ollama, run one of the following commands in your terminal, depending on the LLM you want:
       ```
       ollama run llama3
+      ```
+      ```
+      ollama run Mistral
       ```
