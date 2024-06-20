@@ -14,7 +14,7 @@ you like ollama, and llama.cpp , you love PrivateLLMs decentralized (local) llms
         ```
         
          
-           **`For MacOS`**, click on the [download](https://ollama.com/download/Ollama-darwin.zip) 
+           **`For MacOS`**, click on [download](https://ollama.com/download/Ollama-darwin.zip) 
 
     - then after downloading the Ollama, run one of the following commands in your terminal, depending on the LLM you want:
       ```
