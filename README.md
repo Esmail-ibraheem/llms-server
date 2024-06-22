@@ -23,6 +23,10 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
       ```
       ollama pull Mistral
       ```
+      then run the model to check it out:
+      ```
+      ollama run Mistral
+      ```
       to check if the ollama works in your computer, open your Chrome browser, and type in the search bar: `localhost:11434`
       it should be shown like this: `Ollama is running`
 
