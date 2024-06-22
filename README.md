@@ -26,8 +26,9 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
       to check if the ollama works in your computer, open your Chrome browser, and type in the search bar: `localhost:11434`
       it should be shown like this: `Ollama is running`
 
-  - Second connecte the llama3 to a webGUI:
-     - first download the docker, by typing the following command:
+  - Second connect the llama3 to a web GUI:
+     - first download the docker, by typing the following commands:
+       **INSTALL DOCKER**
        ```
        # Add Docker's official GPG key:
        sudo apt-get update
@@ -49,4 +50,9 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
        or
        ```
        #Install Dockersudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+       ```
+
+       **RUN OPEN WEBUI DOCKER CONTAINER**
+       ```
+       sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
        ```
