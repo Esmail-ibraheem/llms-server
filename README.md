@@ -60,15 +60,15 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
        ```
        sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
        ```
-       **RUN THE WEBUI WTH LLAMA BY TYPING IN THE SEARCH BAR LOCALHOST:8080**
+       **`RUN THE WEBUI WTH LLAMA BY TYPING IN THE SEARCH BAR LOCALHOST:8080`**
 
-       Installing Open WebUI with Bundled Ollama Support
+       ### Installing Open WebUI with Bundled Ollama Support
        This installation method uses a single container image that bundles Open WebUI with Ollama, allowing for a streamlined setup via a single command. Choose the appropriate command based on your hardware setup:
-       With GPU Support: Utilize GPU resources by running the following command:
+       - With GPU Support: Utilize GPU resources by running the following command:
        ```
        docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
        ```
-       For CPU Only: If you're not using a GPU, use this command instead:
+       - For CPU Only: If you're not using a GPU, use this command instead:
        ```
        docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
        ```
