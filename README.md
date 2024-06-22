@@ -72,5 +72,5 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
        ```
        docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
        ```
-   - second, now open the `localhost:8080` or `localhost:3000`, then choose the model you want to chat with. \
-     now you should be able to chat with forexample llama3 with  a GUI locally in your computer.
+    - second, now open the `localhost:8080` or `localhost:3000`, then choose the model you want to chat with. \
+      now you should be able to chat with forexample llama3 with  a GUI locally in your computer.
