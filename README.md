@@ -23,3 +23,4 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
       ```
       ollama run Mistral
       ```
+      to check if the ollama works in your computer, open your chrome browser, and type in the search bar: `localhost:11434`
