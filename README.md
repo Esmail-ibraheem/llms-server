@@ -18,10 +18,10 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
 
     - then after downloading the Ollama, run one of the following commands in your terminal, depending on the LLM you want:
       ```
-      ollama run llama3
+      ollama pull llama3
       ```
       ```
-      ollama run Mistral
+      ollama pull Mistral
       ```
       to check if the ollama works in your computer, open your Chrome browser, and type in the search bar: `localhost:11434`
       it should be shown like this: `Ollama is running`
