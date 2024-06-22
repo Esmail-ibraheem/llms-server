@@ -8,7 +8,7 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
              **`For Windows`** just click on [download (the preview)](https://ollama.com/download/OllamaSetup.exe)
      
           **`For Linux`** write this command in your terminal:
-           in my case I am using wsl in Windows so, I can use the Linux command in the Windows terminal:
+           in my case I am using wsl in Windows so, I can use the Linux command in the Windows terminal: 
         ```
         curl -fsSL https://ollama.com/install.sh | sh
         ```
