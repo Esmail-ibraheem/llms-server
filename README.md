@@ -27,7 +27,7 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
       it should be shown like this: `Ollama is running`
 
   - Second connect the llama3 to a web GUI:
-     - first download the docker, by typing the following commands:
+     - first download the docker, by typing the following commands:\
        **INSTALL DOCKER**
        ```
        # Add Docker's official GPG key:
