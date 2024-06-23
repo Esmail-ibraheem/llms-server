@@ -29,6 +29,7 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
       ```
       to check if the ollama works in your computer, open your Chrome browser, and type in the search bar: `localhost:11434`
       it should be shown like this: `Ollama is running`
+      
 
   - Second connect the llama3 to a web GUI:
      - first download the docker, by typing the following commands:\
