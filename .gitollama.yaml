@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    volumes:
+      - ollama-data:/root/.ollama
+    networks:
+      - webui-network
+    ports:
+      - "11434:11434"
+
+  webui:
+    image: ghcr.io/open-webui/open-webui:latest
+    container_name: open-webui
+    volumes:
+      - webui-data:/app/backend/data
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    networks:
+      - webui-network
+    ports:
+      - "8080:8080"
+
+volumes:
+  ollama-data:
+  webui-data:
+
+networks:
+  webui-network:
