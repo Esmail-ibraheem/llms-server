@@ -64,6 +64,10 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
        ```
        sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
        ```
+       to start the docker run the following command:
+       ```
+       sudo dockerd
+       ```
        **`RUN THE WEBUI WTH LLAMA BY TYPING IN THE SEARCH BAR LOCALHOST:8080`**
 
        ### Installing Open WebUI with Bundled Ollama Support
