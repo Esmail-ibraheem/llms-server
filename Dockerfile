@@ -29,7 +29,7 @@ RUN chmod +x /usr/src/app/run_llama3.py
 # Define the command to run the LLaMA 3 model
 CMD ["python", "run_llama3.py"]
 
-# this is from ollama from Meta itself
+# this is from ollama repositry. 
 
 ARG GOFLAGS-VERSION=1.22.1
 ARG CMAKE_VERSION=3.22.1
@@ -175,3 +175,6 @@ ENV NVIDIA_VISIBLE_DEVICES=all
 
 ENTRYPOINT ["/bin/ollama"]
 CMD ["serve"]
+
+
+# end of the ollama docker file repository.
