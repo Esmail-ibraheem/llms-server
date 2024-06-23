@@ -64,12 +64,9 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
        ```
        sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
        ```
-       to start the docker run the following command:
-       ```
-       sudo dockerd
-       ```
+    
        **`RUN THE WEBUI WTH LLAMA BY TYPING IN THE SEARCH BAR LOCALHOST:8080`**
-
+  
        ### Installing Open WebUI with Bundled Ollama Support
        This installation method uses a single container image that bundles Open WebUI with Ollama, allowing for a streamlined setup via a single command. Choose the appropriate command based on your hardware setup:
        - **`With GPU Support:`** Utilize GPU resources by running the following command:
@@ -81,8 +78,16 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
        docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
        ```
     - second, now open the `localhost:8080` or `localhost:3000`, then choose the model you want to chat with. \
-      now you should be able to chat with forexample llama3 with  a GUI locally in your computer.
+      now you should be able to chat with for example llama3 with  a GUI locally on your computer.
 
+      > Note: if the docker did not run in your computer after the installation, you might need to start manually from the terminal:
+      ```
+      sudo dockerd
+      ```
+      > and also for the Ollama, and it may show an error like this one: `Error: could not connect to Ollama app, is it running?`, to solve this run this command:
+      ```
+      ollama serve 
+      ```
 ---
 
    **`Example of Docker Configuration for Open WebUI and Ollama`**
