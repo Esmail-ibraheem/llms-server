@@ -31,7 +31,7 @@ CMD ["python", "run_llama3.py"]
 
 # this is from ollama from Meta itself
 
-ARG GOLANG_VERSION=1.22.1
+ARG GOFLAGS-VERSION=1.22.1
 ARG CMAKE_VERSION=3.22.1
 # this CUDA_VERSION corresponds with the one specified in docs/gpu.md
 ARG CUDA_VERSION=11.3.1
@@ -85,9 +85,9 @@ RUN mkdir /tmp/scratch && \
 
 FROM --platform=linux/amd64 centos:7 AS cpu-builder-amd64
 ARG CMAKE_VERSION
-ARG GOLANG_VERSION
+ARG GOFLAGS-VERSION
 COPY ./scripts/rh_linux_deps.sh /
-RUN CMAKE_VERSION=${CMAKE_VERSION} GOLANG_VERSION=${GOLANG_VERSION} sh /rh_linux_deps.sh
+RUN CMAKE_VERSION=${CMAKE_VERSION} GOFLAGS-VERSION=${GOFLAGS-VERSION} sh /rh_linux_deps.sh
 ENV PATH /opt/rh/devtoolset-10/root/usr/bin:$PATH
 COPY --from=llm-code / /go/src/github.com/ollama/ollama/
 ARG OLLAMA_CUSTOM_CPU_DEFS
@@ -105,9 +105,9 @@ RUN OLLAMA_SKIP_STATIC_GENERATE=1 OLLAMA_CPU_TARGET="cpu_avx2" sh gen_linux.sh
 
 FROM --platform=linux/arm64 centos:7 AS cpu-builder-arm64
 ARG CMAKE_VERSION
-ARG GOLANG_VERSION
+ARG GOFLAGS-VERSION
 COPY ./scripts/rh_linux_deps.sh /
-RUN CMAKE_VERSION=${CMAKE_VERSION} GOLANG_VERSION=${GOLANG_VERSION} sh /rh_linux_deps.sh
+RUN CMAKE_VERSION=${CMAKE_VERSION} GOFLAGS-VERSION=${GOFLAGS-VERSION} sh /rh_linux_deps.sh
 ENV PATH /opt/rh/devtoolset-10/root/usr/bin:$PATH
 COPY --from=llm-code / /go/src/github.com/ollama/ollama/
 ARG OLLAMA_CUSTOM_CPU_DEFS
@@ -138,7 +138,7 @@ RUN go build -trimpath .
 # Intermediate stage used for ./scripts/build_linux.sh
 FROM --platform=linux/arm64 cpu-build-arm64 AS build-arm64
 ENV CGO_ENABLED 1
-ARG GOLANG_VERSION
+ARG GOFLAGS-VERSION
 WORKDIR /go/src/github.com/ollama/ollama
 COPY . .
 COPY --from=static-build-arm64 /go/src/github.com/ollama/ollama/llm/build/linux/ llm/build/linux/
