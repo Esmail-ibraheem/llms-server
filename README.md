@@ -115,3 +115,9 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
       webui-network:
 
    ```
+**In this configuration:**
+
+Ollama is set up to expose port 11434.
+Open WebUI is configured to interact with Ollama using its internal Docker network address (http://ollama:11434).
+Both services share the webui-network, allowing them to communicate securely.
+Port 8080 on the host is mapped to port 8080 in the open-webui container for web access.
