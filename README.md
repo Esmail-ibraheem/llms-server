@@ -78,3 +78,40 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
        ```
     - second, now open the `localhost:8080` or `localhost:3000`, then choose the model you want to chat with. \
       now you should be able to chat with forexample llama3 with  a GUI locally in your computer.
+
+
+   **`Example of Docker Configuration for Open WebUI and Ollama`**
+   ```yaml
+    version: '3.8'
+    
+    services:
+      ollama:
+        image: ollama/ollama:latest
+        container_name: ollama
+        volumes:
+          - ollama-data:/root/.ollama
+        networks:
+          - webui-network
+        ports:
+          - "11434:11434"
+    
+      webui:
+        image: ghcr.io/open-webui/open-webui:latest
+        container_name: open-webui
+        volumes:
+          - webui-data:/app/backend/data
+        environment:
+          - OLLAMA_BASE_URL=http://ollama:11434
+        networks:
+          - webui-network
+        ports:
+          - "8080:8080"
+    
+    volumes:
+      ollama-data:
+      webui-data:
+    
+    networks:
+      webui-network:
+
+   ```
