@@ -1,6 +1,9 @@
 # PrivateLLMs
  
 you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (local) llms to run in your computer privately and host ALL your AI locally. 
+<p align="center">
+  <img src="https://github.com/Esmail-ibraheem/Private-llms/blob/main/llms.drawio.svg" alt="Your Image Description" >
+</p>
 
 ## 1- Building Decentralized LLMs Server:
   - first download [Ollama](https://ollama.com/download/) on your computer:
