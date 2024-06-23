@@ -142,7 +142,7 @@ Port 8080 on the host is mapped to port 8080 in the open-webui container for web
 ### Notes:
 in this repo, I tried to simplify `how to run Ollama in your computer locally`, and use WebUI with docker to interact with llama not just from the terminal, but also interact with it in the web UI.
 just follow the instructions I provided, and you should be able to use an LLM on your computer locally without an internet connection, for future reference, I will make my models and upload them here so that you can use my models just like Ollama here.
-now you can access the bre-built models from Ollama depending on the model you download, but in the future, I will add my models to the webUI, and you can also chat with it from the terminal (**_I am currently working on it_**).
+now you can access the pre-built models from Ollama depending on the model you download, but in the future, I will add my models to the webUI, and you can also chat with it from the terminal (**_I am currently working on it_**).
 to read more about the WebUI, docker, and Ollama. see my article on [Medium: Build your own llms server](https://medium.com/@Esmail_A.Gumaan/build-your-own-llms-server-56e15ac26b3f).
 
 ---
