@@ -132,6 +132,10 @@ Open WebUI is configured to interact with Ollama using its internal Docker netwo
 Both services share the webui-network, allowing them to communicate securely.
 Port 8080 on the host is mapped to port 8080 in the open-webui container for web access.
 
+
+**to test ollama in your GPU, type in your terminal: `nvidia-smi`**
+
+
 ---
 
 ## 2- LLMs Documentation: my models
