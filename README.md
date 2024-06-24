@@ -137,6 +137,21 @@ Port 8080 on the host is mapped to port 8080 in the open-webui container for web
 ## 2- LLMs Documentation: my models
 **for 4 months**
 
+
+---
+
+### Citation:
+```BiTex
+@misc{Gumaan2024-PrivateLLMs,
+  title   = "Private-llms",
+  author  = "Gumaan, Esmail",
+  howpublished = {\url{https://github.com/Esmail-ibraheem/Private-llms}},
+  year    = "2024",
+  month   = "June",
+  note    = "[Online; accessed 2024-06-23]",
+}
+```
+
 ---
 
 ### Notes:
