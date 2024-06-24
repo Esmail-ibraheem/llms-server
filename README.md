@@ -141,7 +141,7 @@ Port 8080 on the host is mapped to port 8080 in the open-webui container for web
 ---
 
 ### Citation:
-```BiTex
+```BibTex
 @misc{Gumaan2024-PrivateLLMs,
   title   = "Private-llms",
   author  = "Gumaan, Esmail",
