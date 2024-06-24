@@ -1,4 +1,4 @@
-# PrivateLLMs🔒
+# LLMs server🔒
  
 you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (local) llms to run in your computer privately and host ALL your AI locally. 
 <p align="center">
