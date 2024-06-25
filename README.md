@@ -5,7 +5,21 @@ you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (
   <img src="https://github.com/Esmail-ibraheem/Private-llms/blob/main/llms.drawio.png" alt="Your Image Description" >
 </p>
 
-## 1- Building Decentralized LLMs Server:
+
+## 1- Building Decentralized Server (Hardware):
+- ➡️Lian Li Case: https://geni.us/B9dtwB7
+- ➡️Motherboard - ASUS X670E-CREATOR PROART WIFI: https://geni.us/SLonv
+- ➡️CPU - AMD Ryzen 9 7950X3D Raphael AM5 4.2GHz 16-Core: https://geni.us/UZOZ5
+- ➡️Power Supply - Corsair AX1600i 1600 Watt 80 Plus Titanium: https://geni.us/O1toG
+- ➡️CPU AIO - Lian Li Galahad II LCD-SL Infinity 360mm Water Cooling Kit: https://geni.us/uBgF
+- ➡️Storage - Samsung 990 PRO 2TB Samsung: https://geni.us/hQ5c
+- ➡️RAM - G.Skill Trident Z5 Neo RGB 64GB (2 x 32GB): https://geni.us/D2sUN
+- ➡️GPU - MSI GeForce RTX 4090 SUPRIM LIQUID X 24G Hybrid Cooling 24GB: https://geni.us/G5BZ
+
+
+---
+
+## 2- Building Decentralized LLMs Server (Software):
   - first download [Ollama](https://ollama.com/download/) on your computer:
       - choose the OS version you want to download:\
              **`For Windows`** just click on [download (the preview)](https://ollama.com/download/OllamaSetup.exe)
