@@ -1,6 +1,6 @@
 # LLMs server🔒
  
-you like **_ollama_**, and **_llama.cpp_**, you love PrivateLLMs decentralized (local) llms to run in your computer privately and host ALL your AI locally. 
+you like **_ollama_**, and **_llama.cpp_**, you love LLMs Server decentralized (local) llms to run in your computer privately and host ALL your AI locally. 
 <p align="center">
   <img src="https://github.com/Esmail-ibraheem/Private-llms/blob/main/llms.drawio.png" alt="Your Image Description" >
 </p>
