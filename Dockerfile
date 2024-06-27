@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 # Install dependencies
 RUN apt-get update && \ 
-    apt-get install -y wget && \
+    apt-get install -y wget && \ 
     rm -rf /var/lib/apt/lists/*
 
 # Download and install Ollama
