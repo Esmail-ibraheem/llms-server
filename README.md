@@ -141,7 +141,7 @@ Port 8080 on the host is mapped to port 8080 in the open-webui container for web
 
 ## 2- OmniverseLLMs-2.0 Documentation: 
 - Xllama: [Xllama](https://github.com/Esmail-ibraheem/Xllama) is an advanced language model framework, inspired by the original Llama model but enhanced with additional features such as Grouped Query Attention (GQA), Multi-Head Attention (MHA), and more. This project aims to provide a flexible and extensible platform for experimenting with various attention mechanisms and building state-of-the-art natural language processing models.
-  - install the requirements libraries:
+    install the requirements libraries:
     ```
     pip install requirements
     ```
