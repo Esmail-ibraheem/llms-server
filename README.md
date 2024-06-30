@@ -6,7 +6,7 @@ you like **_ollama_**, and **_llama.cpp_**, you love LLMs Server decentralized (
 </p>
 
 
-## 1- Building Decentralized LLMs Server (Software):
+## 1- Building Decentralized LLMs Server:
   - first download [Ollama](https://ollama.com/download/) on your computer:
       - choose the OS version you want to download:\
              **`For Windows`** just click on [download (the preview)](https://ollama.com/download/OllamaSetup.exe)
