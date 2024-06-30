@@ -139,7 +139,7 @@ Port 8080 on the host is mapped to port 8080 in the open-webui container for web
 
 ---
 
-## 2- LLMs-2.0 Documentation: 
+## 2- OmniverseLLMs-2.0 Documentation: 
 **for 4 months**
 
 
