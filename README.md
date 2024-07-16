@@ -168,12 +168,12 @@ Port 8080 on the host is mapped to port 8080 in the open-webui container for web
 
 ### Citation:
 ```BibTex
-@misc{Gumaan2024-Xllama,
-  title   = "Xllama",
+@misc{Gumaan2024-llms-server,
+  title   = "llms-server",
   author  = "Gumaan, Esmail",
-  howpublished = {\url{https://github.com/Esmail-ibraheem/Xllama}},
+  howpublished = {\url{https://github.com/Esmail-ibraheem/llms-server}},
   year    = "2024",
-  month   = "June",
+  month   = "July",
   note    = "[Online; accessed 2024-06-23]",
 }
 ```
